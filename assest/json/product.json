@@ -1,0 +1,549 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Rapidline Leo ",
+            "price": 200,
+            "Brands": "LEO",
+            "rating": 5,
+            "category":"Branded",
+            "detail": "The word Chair makes the function clear but could also be stylized to add flair  like LeoChairs or Leo Throne",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/leochair.jpg",
+            "images": [
+                "./assest/image/leocorellawhite2.png",
+                "./assest/image/leo brand corella.png",
+                "./assest/image/leo corella black 2.png",
+                "./assest/image/leo corella black 3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Leo Corella Black",
+            "price": 500,
+            "Brands": "LEO",
+            "rating": 5,
+            "category":"Branded",
+            "detail": "The word Chair makes the function clear but could also be stylized to add flair  like LeoChairs or Leo Throne",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/leo corella black 2.png",
+            "images": [
+                "./assest/image/leo corella black 2.png",
+                "./assest/image/leo corella black 3.jpg",
+                "./assest/image/leo corella black 4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Leo Gaming Chairs ",
+            "price": 100,
+            "Brands": "LEO",
+            "rating": 4,
+            "category":"Branded",
+            "detail": "The word Chair makes the function clear but could also be stylized to add flair  like LeoChairs or Leo Throne",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/leo gaming chair.webp",
+            "images": [
+                "./assest/image/leo gaming 2.jpg",
+                "./assest/image/leo gaming 3.webp",
+                "./assest/image/Armchair gaming  computer chair.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Leo Lounge Chair",
+            "price": 400,
+            "Brands": "LEO",
+            "rating": 3,
+            "category":"Branded",
+            "detail": "The word Chair makes the function clear but could also be stylized to add flair  like LeoChairs or Leo Throne",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/leo lounge.jpg",
+            "images": [
+                "./assest/image/leo lounge chair 2.webp",
+                "./assest/image/leo lounge chair 4.jpg",
+                "./assest/image/leo lounge chair chair 3.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Teknion Brand",
+            "price": 400,
+            "Brands": "TEKNION",
+            "rating": 4,
+            "category":"Branded",
+            "detail": "Teknion chairs are often minimalist, sleek, and modern. Their design language focuses on clean lines and sophisticated details that work well in both corporate offices and home workspaces",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/teknion 1.jpg",
+            "images": [
+                "./assest/image/teknion 4.jpg",
+                "./assest/image/teknion 1.jpg",
+                "./assest/image/teknion 5.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Teknion Brand",
+            "price": 800,
+            "Brands": "TEKNION",
+            "rating": 4,
+            "category":"Branded",
+            "detail": "Teknion chairs are often minimalist, sleek, and modern. Their design language focuses on clean lines and sophisticated details that work well in both corporate offices and home workspaces",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/teknion 2.jpg",
+            "images": [
+                "./assest/image/teknion 6.jpg",
+                "./assest/image/teknion 9.jpg",
+                "./assest/image/teknion tan 1.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Teknion Brand",
+            "price": 900,
+            "Brands": "TEKNION",
+            "rating": 5,
+            "category":"Branded",
+            "detail": "Teknion chairs are often minimalist, sleek, and modern. Their design language focuses on clean lines and sophisticated details that work well in both corporate offices and home workspaces",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/teknion 3.jpg",
+            "images": [
+                "./assest/image/teknion task.jpg",
+                "./assest/image/teknion 4.jpg",
+                "./assest/image/teknion 3.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Teknion Brand",
+            "price": 600,
+            "Brands": "TEKNION",
+            "rating": 4,
+            "category":"Branded",
+            "detail": "Teknion chairs are often minimalist, sleek, and modern. Their design language focuses on clean lines and sophisticated details that work well in both corporate offices and home workspaces",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/teknion 5.jpg",
+            "images": [
+                "./assest/image/teknion 5.jpg",
+                "./assest/image/teknion 7.webp",
+                "./assest/image/teknion 8.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Kimball Chair",
+            "price": 300,
+            "Brands": "KIMBALL",
+            "rating": 5,
+            "category":"Branded",
+            "detail": "The Kimball chair refers to a line of office seating designed by the furniture company Kimball International. Known for their ergonomic design, attention to comfort, and high-quality materials,",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/kimball 1.webp",
+            "images": [
+                "./assest/image/teknion 8.jpg",
+                "./assest/image/kimball 3 inerior.jpg",
+                "./assest/image/LEO1 NPPL 3.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Kimball Chair",
+            "price": 860,
+            "Brands": "KIMBALL",
+            "rating": 5,
+            "category":"Branded",
+            "detail": "The Kimball chair refers to a line of office seating designed by the furniture company Kimball International. Known for their ergonomic design, attention to comfort, and high-quality materials,",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/kimball 2.jpg",
+            "images": [
+                "./assest/image/kimball 5.jpg",
+                "./assest/image/manufacture factory.jpg",
+                "./assest/image/manufacture factory.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Kimball Chair",
+            "price": 470,
+            "Brands": "KIMBALL",
+            "rating": 4,
+            "category":"Branded",
+            "detail": "The Kimball chair refers to a line of office seating designed by the furniture company Kimball International. Known for their ergonomic design, attention to comfort, and high-quality materials,",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/kimball 3.jpg",
+            "images": [
+                "./assest/image/kimball 6.jpg",
+                "./assest/image/kimball 3 inerior.jpg",
+                "./assest/image/kimball black 3.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Kimball Chair",
+            "price": 390,
+            "Brands": "KIMBALL",
+            "rating": 4,
+            "category":"Branded",
+            "detail": "The Kimball chair refers to a line of office seating designed by the furniture company Kimball International. Known for their ergonomic design, attention to comfort, and high-quality materials,",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/kimball 5.jpg",
+            "images": [
+                "./assest/image/kimball international.webp",
+                "./assest/image/kimball 8.webp",
+                "./assest/image/kimball 4.jpg"
+            ]
+        }
+
+
+
+        
+        ,
+        {
+            "id": 13,
+            "title": "Bouncle Chair",
+            "price": 340,
+            "Brands": "Home",
+            "rating": 4,
+            "category": "Home",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/Boucle occasional Chair back.jpg",
+            "images": [
+                "./assest/image/Boucle Occasional Chair home.webp",
+                "./assest/image/BoucleChairnz white chair home.jpg",
+                "./assest/image/republique isla boucle round chair.jpg"
+            ]
+        }
+        ,
+        {
+            "id": 14,
+            "title": "Dinning Chair",
+            "price": 399,
+            "Brands": "Home",
+            "rating": 4,
+            "category": "Home",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/shop artiss dining chairs.webp",
+            "images": [
+                "./assest/image/Rubik velvet Dining Chair home chair.jpg",
+                "./assest/image/lore.webp",
+                "./assest/image/stella modern velvet chair.webp"
+            ]
+        }
+        ,
+        {
+            "id": 15,
+            "title": "Maya Chair",
+            "price": 400,
+            "Brands": "Home",
+            "rating": 4,
+            "category": "Home",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Orange" ,
+                "Green" ,
+                "Black"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/maya chair 3.jpg",
+            "images": [
+                "./assest/image/maya chair oranged.jpg",
+                "./assest/image/maya chair 4.jpg",
+                "./assest/image/maya chair 6.jpg"
+            ]
+        }
+        ,
+        {
+            "id": 16,
+            "title": "Rattan Chair",
+            "price": 395,
+            "Brands": "Home",
+            "rating": 4,
+            "category": "Home",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/Lounge sale rattan cane chair home.jpg",
+            "images": [
+                "./assest/image/jonathan leo.jpg",
+                "./assest/image/kangrooo rattan chair home.jpg",
+                "./assest/image/slider wooden.jpg"
+            ]
+        }
+        ,
+        {
+            "id": 17,
+            "title": "Trinidad Chair",
+            "price": 390,
+            "Brands": "Office",
+            "rating": 4,
+            "category": "Office",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/Trinidad-Office-Chair-.jpg",
+            "images": [
+                "./assest/image/branded clearence revolving chair.webp",
+                "./assest/image/office mesh office chair.jpg",
+                "./assest/image/stell case 3.webp"
+            ]
+        }
+        ,
+        {
+            "id": 18,
+            "title": "Stell Chair",
+            "price": 390,
+            "Brands": "Office",
+            "rating": 4,
+            "category": "Office",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/stell image 6.webp",
+            "images": [
+                "./assest/image/stell 7.webp",
+                "./assest/image/revoloooving chair.jpg",
+                "./assest/image/kimball joy.jpg"
+            ]
+        }
+        ,
+        {
+            "id": 19,
+            "title": "Revolving Chair",
+            "price": 390,
+            "Brands": "Office",
+            "rating": 4,
+            "category": "Office",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/branded clearence revolving chair.webp",
+            "images": [
+                "./assest/image/high quality office chair.jpg",
+                "./assest/image/formic office chair.webp",
+                "./assest/image/teknion 7.webp "
+            ]
+        }
+        ,
+        {
+            "id": 20,
+            "title": "Steel Case Chair",
+            "price": 390,
+            "Brands": "Office",
+            "rating": 4,
+            "category": "Office",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/teknion 8.jpg",
+            "images": [
+                "./assest/image/teknion 3.jpg",
+                "./assest/image/steel case 4.webp",
+                "./assest/image/teknion task.jpg"
+            ]
+        }
+        ,
+        {
+            "id": 21,
+            "title": " Toys  Chair",
+            "price": 390,
+            "Brands": "Kids",
+            "rating": 4,
+            "category": "Kids",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/toys drk yellow chair.jpg",
+            "images": [
+                "./assest/image/toys blue chair.jpg",
+                "./assest/image/toys yellow chair.webp",
+                "./assest/image/red image.webp"
+            ]
+        }
+        ,
+        {
+            "id": 22,
+            "title": "Olivia Chair",
+            "price": 390,
+            "Brands": "Kids",
+            "rating": 4,
+            "category": "Kids",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/olivia kimball chair.webp",
+            "images": [
+                "./assest/image/slider image 9.webp",
+                "./assest/image/dealers red chairs.jpg",
+                "./assest/image/cello-bolt-pink-kids-chair-500x500.webp"
+            ]
+        }
+        ,
+        {
+            "id": 23,
+            "title": "Blue Plastic Chair",
+            "price": 390,
+            "Brands": "Kids",
+            "rating": 4,
+            "category": "Kids",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/kids blue chair.webp",
+            "images": [
+                "./assest/image/toys yellow chair.webp",
+                "./assest/image/toys blue chair.jpg",
+                "./assest/image/kids green chair.webp"
+            ]
+        }
+        ,
+        {
+            "id": 24,
+            "title": "Rio kids Chair",
+            "price": 390,
+            "Brands": "Kids",
+            "rating": 4,
+            "category": "Kids",
+            "detail": "The chair is built with a supportive backrest and contoured seat to encourage healthy posture during long hours of sitting, promoting comfort for growing kids and adults alike.",
+            "size": "L , M , S",
+            "colors": [
+                "Black",
+                "Brown",
+                "White"
+            ],
+            "description": "It is designed to provide exceptional comfort without compromising on style. Its sleek, modern design makes it a perfect fit for any room, while its ergonomic structure ensures optimal support for long hours of use. Whether you're working from home, enjoying a meal, or relaxing with friends, this chair delivers premium comfort with a sophisticated lookminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "image": "./assest/image/rio kids chair.webp",
+            "images": [
+                "./assest/image/rio green chairkid.avif",
+                "./assest/image/rio red chair.webp",
+                "./assest/image/office image9.jpg"
+            ]
+        }
+    ]
+}

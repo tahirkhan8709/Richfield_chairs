@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>E Store - eCommerce HTML Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="eCommerce HTML Template Free Download" name="keywords">
+        <meta content="eCommerce HTML Template Free Download" name="description">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="assest/css/styling.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="top-nav">
+                <div class="top-nav-container">
+                    <p>10% discount for registered users</p>
+                </div>
+                <div class="top-nav-container">
+                    <div class="currency">
+                        <select name="" id="">
+                            <option value="USD">USD</option>
+                            <option value="PKR">PKR</option>
+                        </select>
+                    </div>
+                    <div class="lang">
+                        <select name="" id="">
+                            <option value="ENG">ENG</option>
+                            <option value="URDU">URDU</option>
+                        </select>
+                    </div>
+                </div>
+              </div>
+              <nav>
+              
+                <div class="nav-links" onclick="myNavLink()" id="toogle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 -0.5 25 25" fill="none">
+                        <path d="M5.5 11.75C5.08579 11.75 4.75 12.0858 4.75 12.5C4.75 12.9142 5.08579 13.25 5.5 13.25V11.75ZM19.5 13.25C19.9142 13.25 20.25 12.9142 20.25 12.5C20.25 12.0858 19.9142 11.75 19.5 11.75V13.25ZM5.5 7.75C5.08579 7.75 4.75 8.08579 4.75 8.5C4.75 8.91421 5.08579 9.25 5.5 9.25V7.75ZM14.833 9.25C15.2472 9.25 15.583 8.91421 15.583 8.5C15.583 8.08579 15.2472 7.75 14.833 7.75V9.25ZM5.5 15.75C5.08579 15.75 4.75 16.0858 4.75 16.5C4.75 16.9142 5.08579 17.25 5.5 17.25V15.75ZM14.833 17.25C15.2472 17.25 15.583 16.9142 15.583 16.5C15.583 16.0858 15.2472 15.75 14.833 15.75V17.25ZM5.5 13.25H19.5V11.75H5.5V13.25ZM5.5 9.25H14.833V7.75H5.5V9.25ZM5.5 17.25H14.833V15.75H5.5V17.25Z" fill="#000000"/>
+                        </svg>
+                </div>
+              
+                <div class="nav-links logo">
+                    <p>RICH</p>
+                    <p>FEILD</p>
+                </div>
+                
+                <div class="nav-links links" id="myNavLink">
+                    <div id="nav-closed" onclick="myNavLink()">
+                        <div class="nav-links logo">
+                            <p>RICH</p>
+                            <p>FEILD</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 64 64" fill="none" stroke="#000000">
+                            <line x1="16" y1="16" x2="48" y2="48"/>
+                            <line x1="48" y1="16" x2="16" y2="48"/>
+                        </svg>
+                    </div>
+                    <div class="link">
+              
+                        <a href="index.html" class="nv-lnks">HOME</a>
+                     <a href="shop.html" class="nv-lnks">SHOP</a> 
+              
+              
+                  
+                        <a href="aboutus.html" class="nv-lnks">ABOUT</a>
+                        <a href="contact .html" class="nv-lnks">CONTACT</a>
+                         <a href="./myaccount.html" class="nv-lnks">LOGIN</a>
+                      
+                      
+                    </div>
+                    
+                    </div>
+              
+              
+              
+                </div>
+                <div class="nav-links shoping">
+                    <div class="cart" onclick="showmycarts()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        <span>0</span>
+                    </div>
+                    <a href="wish.html">
+                    <div class="wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                        <span>0</span>
+                    </div>
+                    </a>
+                </div>
+              
+              </nav>
+        </header>
+        <section id="about-bannerimg" style="background-image:
+    
+    radial-gradient(
+                rgba(21, 21, 21, 0.5), 
+                rgba(25, 25, 25, 0.5)
+            ),
+    url(assest/image/wooden\ furniture.jpeg);">
+        <div class="about-top">
+            <p style=" font-size: 40px; font-weight: bold; padding-bottom: 20px; color: rgb(226, 223, 223);">Checkout</p>
+
+            Checkout|<a href="index.html" style="color: rgb(207, 201, 201);">Home</a>
+        </div>
+    </section>
+        
+        <!-- Checkout Start -->
+        <div class="checkout">
+            <div class="container-fluid"> 
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="checkout-inner">
+                            <div class="billing-address">
+                                <h2>Billing Address</h2>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>First Name</label>
+                                        <input class="form-control" type="text" placeholder="First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Last Name"</label>
+                                        <input class="form-control" type="text" placeholder="Last Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>E-mail</label>
+                                        <input class="form-control" type="text" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Mobile No</label>
+                                        <input class="form-control" type="text" placeholder="Mobile No">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label>Address</label>
+                                        <input class="form-control" type="text" placeholder="Address">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Country</label>
+                                        <select class="custom-select">
+                                            <option selected>United States</option>
+                                            <option>Afghanistan</option>
+                                            <option>Albania</option>
+                                            <option>Algeria</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>City</label>
+                                        <input class="form-control" type="text" placeholder="City">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>State</label>
+                                        <input class="form-control" type="text" placeholder="State">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>ZIP Code</label>
+                                        <input class="form-control" type="text" placeholder="ZIP Code">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="newaccount">
+                                            <label class="custom-control-label" for="newaccount">Create an account</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="shipto">
+                                            <label class="custom-control-label" for="shipto">Ship to different address</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="shipping-address">
+                                <h2>Shipping Address</h2>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>First Name</label>
+                                        <input class="form-control" type="text" placeholder="First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Last Name"</label>
+                                        <input class="form-control" type="text" placeholder="Last Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>E-mail</label>
+                                        <input class="form-control" type="text" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Mobile No</label>
+                                        <input class="form-control" type="text" placeholder="Mobile No">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label>Address</label>
+                                        <input class="form-control" type="text" placeholder="Address">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Country</label>
+                                        <select class="custom-select">
+                                            <option selected>United States</option>
+                                            <option>Afghanistan</option>
+                                            <option>Albania</option>
+                                            <option>Algeria</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>City</label>
+                                        <input class="form-control" type="text" placeholder="City">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>State</label>
+                                        <input class="form-control" type="text" placeholder="State">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>ZIP Code</label>
+                                        <input class="form-control" type="text" placeholder="ZIP Code">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="checkout-inner">
+                            <div class="checkout-summary">
+                                <h1>Cart Total</h1>
+                                <p>Product Name<span>$99</span></p>
+                                <p class="sub-total">Sub Total<span>$99</span></p>
+                                <p class="ship-cost">Shipping Cost<span>$1</span></p>
+                                <h2>Grand Total<span>$100</span></h2>
+                            </div>
+
+                            <div class="checkout-payment">
+                                <div class="payment-methods">
+                                    <h1>Payment Methods</h1>
+                                    <div class="payment-method">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="payment-1" name="payment">
+                                            <label class="custom-control-label" for="payment-1">Paypal</label>
+                                        </div>
+                                        <div class="payment-content" id="payment-1-show">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="payment-2" name="payment">
+                                            <label class="custom-control-label" for="payment-2">Payoneer</label>
+                                        </div>
+                                        <div class="payment-content" id="payment-2-show">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="payment-3" name="payment">
+                                            <label class="custom-control-label" for="payment-3">Check Payment</label>
+                                        </div>
+                                        <div class="payment-content" id="payment-3-show">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="payment-4" name="payment">
+                                            <label class="custom-control-label" for="payment-4">Direct Bank Transfer</label>
+                                        </div>
+                                        <div class="payment-content" id="payment-4-show">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="payment-5" name="payment">
+                                            <label class="custom-control-label" for="payment-5">Cash on Delivery</label>
+                                        </div>
+                                        <div class="payment-content" id="payment-5-show">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="checkout-btn">
+                                    <button>Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Checkout End -->
+        
+               <!-- footer -->
+
+    <footer class="footer">
+
+        <!-- <div class="logo">RICH FIELDS</div> -->
+        <div class="footer-container">
+            <!-- Company Info Section -->
+
+            <div class="footer-section">
+                <div class="footr-lgo">
+                    <h2>Rich <span class="fld">Field</span></h2>
+                </div>
+                <!-- <h3>Company</h3> -->
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Support Section -->
+            <div class="footer-section">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="footer-section">
+
+                <section id="footer-top">
+                    <div class="footer-section">
+                        <h3>Subscribe to Our Newsletter </h3>
+
+                        <form action="#" method="POST">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subs-btn">Subscribe</button>
+                        </form>
+
+                    </div>
+                </section>
+                <div class="footer-top">
+                    <h3>Follow Us</h3>
+                    <a href="" class="media-liks"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Newsletter Subscription Section -->
+
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your RICH FIELD company. All Rights Reserved.</p>
+        </div>
+    </footer>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

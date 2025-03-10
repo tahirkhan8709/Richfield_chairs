@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+</head>
+<body style="background-color: #fff">
+
+  <header id="header">
+       
+  </header>
+
+
+    <!-- about us start -->
+
+    <section id="about-bannerimg" style="background-image:
+    
+    radial-gradient(
+                rgba(21, 21, 21, 0.5), 
+                rgba(25, 25, 25, 0.5)
+            ),url(assest/image/wooden\ furniture.jpeg);">
+        <div class="about-top">
+            <p style=" font-size: 40px; font-weight: bold; padding-bottom: 20px; color: rgb(210, 208, 208);"> My Accounts</p>
+
+            My Accounts |<a href="index.html" style="color: rgb(207, 204, 204);">Home</a>
+        </div>
+    </section>
+
+    <section id="login-sec">
+
+        <div class="register-container">
+            <h2 style="color: rgb(64, 62, 62); padding-top: 20px;">Create an Account</h2>
+            <form id="registerForm" onsubmit="return validateForm()">
+              <div class="form-group">
+                <label for="username">Full Name</label>
+                <input type="text" id="username" name="username" placeholder="Enter your full name" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+              </div>
+              <a href="#" style="text-align: center; margin-bottom: 20px;">
+              <button type="submit" style="background-color: rgb(253, 182, 0); color: white; border-radius: 5px; font-size: 20px; width: 100%;">Register</button>
+              </a>
+            </form>
+            <!-- <p style="color: rgb(39, 38, 38); text-align: center;" >Already have an account? <a href="#">Login here</a></p> -->
+          </div>
+
+        <div class="contiinneerr" style="margin-top: 50px; margin-bottom: 30px;">
+            <!-- Login Form -->
+            <div id="login-form" class="form-container">
+              <h2  style="color: rgb(64, 62, 62);">Login</h2>
+              <form id="login">
+                <input type="email" id="login-email" placeholder="Enter Email" required>
+                <input type="password" id="login-password" placeholder="Enter Password" required>
+                <button type="submit" style="background-color: rgb(255, 196, 0); color: white; border-radius: 5px;" >Login</button>
+                <!-- <p>Don't have an account? <span id="show-register">Register</span></p> -->
+              </form>
+            </div>
+        
+            <!-- Register Form -->
+            
+          </div>
+
+
+
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+
+        <!-- <div class="logo">RICH FIELDS</div> -->
+        <div class="footer-container">
+
+
+            <!-- Company Info Section -->
+
+            <div class="footer-section">
+              <div class="footr-lgo" >
+                <h2>Rich <span class="fld">Field</span></h2>
+               </div>
+                <!-- <h3>Company</h3> -->
+                <ul>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="myaccount.html">Accounts</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Support Section -->
+            <div class="footer-section">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="contact .html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="shop.html">Brands</a></li>
+                    <li><a href="shop.html">Branded</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <!-- <li><a href="#">Returns & Exchanges</a></li> -->
+                </ul>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="footer-section">
+
+                <section id="footer-top">
+                    <div class="footer-section">
+                        <h3>Subscribe to Our Newsletter </h3>
+
+                        <form action="#" method="POST">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subs-btn">Subscribe</button>
+                        </form>
+
+                    </div>
+                </section>
+                <div class="footer-top">
+                    <h3>Follow Us</h3>
+                    <a href="" class="media-liks"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Newsletter Subscription Section -->
+
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your RICH FIELD company. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="assest/js/script.js"></script>
+
+    
+    
+
+    
+</body>
+<script>
+    // Switch to Register Form
+document.getElementById('show-register').addEventListener('click', function() {
+  document.getElementById('login-form').style.display = 'none';
+  document.getElementById('register-form').style.display = 'block';
+});
+
+// Switch to Login Form
+document.getElementById('show-login').addEventListener('click', function() {
+  document.getElementById('register-form').style.display = 'none';
+  document.getElementById('login-form').style.display = 'block';
+});
+
+// Login Form Submission
+document.getElementById('login').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const email = document.getElementById('login-email').value;
+  const password = document.getElementById('login-password').value;
+  
+  // Perform login logic (this is just an example, in reality, it should be validated with the backend)
+  alert('Login successful with email: ' + email);
+  // You can redirect the user or proceed as needed
+});
+
+// Register Form Submission
+document.getElementById('register').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const username = document.getElementById('register-username').value;
+  const email = document.getElementById('register-email').value;
+  const password = document.getElementById('register-password').value;
+
+  // Perform register logic (this is just an example, in reality, it should be validated with the backend)
+  alert('Registration successful for: ' + username);
+  // You can redirect the user or proceed as needed
+});
+
+
+
+
+// Switch to Register Form
+document.getElementById('show-register').addEventListener('click', function() {
+  document.getElementById('login-form').style.display = 'none';
+  document.getElementById('register-form').style.display = 'block';
+});
+
+// Switch to Login Form
+document.getElementById('show-login').addEventListener('click', function() {
+  document.getElementById('register-form').style.display = 'none';
+  document.getElementById('login-form').style.display = 'block';
+});
+
+// Login Form Submission
+document.getElementById('login').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const email = document.getElementById('login-email').value;
+  const password = document.getElementById('login-password').value;
+  
+  // Perform login logic (this is just an example, in reality, it should be validated with the backend)
+  alert('Login successful with email: ' + email);
+  // You can redirect the user or proceed as needed
+});
+
+// Register Form Submission
+document.getElementById('register').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const username = document.getElementById('register-username').value;
+  const email = document.getElementById('register-email').value;
+  const password = document.getElementById('register-password').value;
+
+  // Perform register logic (this is just an example, in reality, it should be validated with the backend)
+  alert('Registration successful for: ' + username);
+  // You can redirect the user or proceed as needed
+});
+
+
+
+function validateForm() {
+  const username = document.getElementById("username").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const confirmPassword = document.getElementById("confirmPassword").value;
+
+  // Username validation
+  if (username.trim() === "") {
+    alert("Please enter your full name.");
+    return false;
+  }
+
+  // Email validation
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+
+  // Password validation
+  if (password.length < 6) {
+    alert("Password must be at least 6 characters long.");
+    return false;
+  }
+
+  // Confirm password validation
+  if (password !== confirmPassword) {
+    alert("Passwords do not match.");
+    return false;
+  }
+
+  alert("Registration successful!");
+  return true;  // Form will be submitted if all validations pass
+}
+
+
+
+</script>
+</html>

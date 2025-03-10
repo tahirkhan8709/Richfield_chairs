@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+
+
+    
+    <header id="header">
+       
+    </header>
+    
+
+    <!-- shop  start -->
+
+    <section id="about-bannerimg" style="background-image: 
+    radial-gradient(
+                rgba(21, 21, 21, 0.5), 
+                rgba(25, 25, 25, 0.5)
+            ),url(assest/image/wooden\ furniture.jpeg);">
+        <div class="about-top">
+            <p style=" font-size: 40px; font-weight: bold; padding-bottom: 20px; color: rgb(227, 227, 227);">Shop</p>
+
+            Shop |<a href="index.html" style="color: rgb(207, 199, 199);">Home</a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="shop-items">
+
+        <div class="sidebar">
+            <p style="font-size: 23px; font-weight: bold; padding-bottom: 10px; color: rgb(73, 71, 71);">Filter By:</p>
+            <hr style="margin-bottom: 10px;">
+            <!-- Price Range Filter -->
+
+            <div class="filter-group">
+
+                <h4>Price Range</h4>
+                <hr style="margin-bottom: 10px;">
+                <input type="range" min="0" max="1000" value="500" class="slider" id="priceRange">
+                <span>Price: $<span id="priceValue">500</span></span>
+            </div>
+
+            <!-- Brand Filter -->
+            <div class="filter-group">
+                <h4>Brand</h4>
+                <hr style="margin-bottom: 10px;">
+                <ul id="showBrands">
+
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h4>Category</h4>
+                <hr style="margin-bottom: 10px;">
+                <ul id="showCategory">
+
+                </ul>
+            </div>
+
+
+
+            <!-- Rating Filter -->
+            <div class="filter-group">
+                <h4>Rating</h4>
+                <hr style="margin-bottom: 10px;">
+
+                <ul>
+                    <a href="#" style="color: rgb(110, 107, 107);">
+                        <li><input type="checkbox" name="starRating" value="1" id="brand1">
+                            <p>1 Star</p>
+                        </li>
+                    </a>
+
+                    <a href="#" style="color: rgb(110, 107, 107);">
+                        <li><input type="checkbox" name="starRating" value="2" id="brand2">
+                            <p>2 Stars</p>
+                        </li>
+                    </a>
+
+                    <a href="#" style="color: rgb(110, 107, 107);">
+                        <li><input type="checkbox" name="starRating" value="3" id="brand3">
+                            <p>3 Stars</p>
+                        </li>
+                    </a>
+
+                    <a href="#" style="color: rgb(110, 107, 107);">
+                        <li><input type="checkbox" name="starRating" value="4" id="brand4">
+                            <p>4 Stars</p>
+                        </li>
+                    </a>
+
+                    <a href="#" style="color: rgb(110, 107, 107);">
+                        <li><input type="checkbox" name="starRating" value="5" id="brand5">
+                            <p>5 Stars</p>
+                        </li>
+                    </a>
+                </ul>
+
+
+            </div>
+            <div class="filter-group">
+                <h4>Compair Products</h4>
+                <hr style="margin-bottom: 10px;">
+               <a href="./compairing.html" style="border: 1px solid rgb(61, 61, 61);background-color: black; color: white; font-weight: bold; padding: 20px;">Compair Products</a>
+            </div>
+
+           
+        </div>
+
+        <!-- brands -->
+
+        <div id="showProducts" class="shp-product">
+
+
+
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <!-- <div class="logo">RICH FIELDS</div> -->
+        <div class="footer-container">
+            <!-- Company Info Section -->
+
+            <div class="footer-section">
+                <div class="footr-lgo" >
+                    <h2>Rich <span class="fld">Field</span></h2>
+                   </div>
+                <!-- <h3>Company</h3> -->
+                <ul>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="myaccount.html">Accounts</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Support Section -->
+            <div class="footer-section">
+               
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="contact .html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="shop.html">Brands</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="shop.html"></a>Branded</li>
+                    <!-- <li><a href="#">Returns & Exchanges</a></li> -->
+                </ul>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="footer-section">
+
+                <section id="footer-top">
+                    <div class="footer-section">
+                        <h3>Subscribe to Our Newsletter </h3>
+
+                        <form action="#" method="POST">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subs-btn">Subscribe</button>
+                        </form>
+
+                    </div>
+                </section>
+                <div class="footer-top">
+                    <h3>Follow Us</h3>
+                    <a href="" class="media-liks"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Newsletter Subscription Section -->
+
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your RICH FIELD company. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assest/js/script.js"></script>
+
+    <script>
+
+console.log(document.querySelectorAll('.brandCheckbox'));
+
+
+fetch("./assest/json/product.json")
+    .then(response => response.json())
+    .then(json => {
+        let myJsonData = json.products;
+
+        // Modify the data if needed (example: add a discount to all products)
+        myJsonData = myJsonData.map(product => {
+            product.price = product.price * 0.9; // Applying a 10% discount
+            return product;
+        });
+
+        const priceRange = document.getElementById("priceRange");
+        const priceValue = document.getElementById("priceValue");
+
+        priceRange.oninput = function () {
+            priceValue.textContent = priceRange.value;
+            filterProducts();
+        };
+
+        let uniqueBrands = new Set();
+        myJsonData.forEach(element => {
+            if (!uniqueBrands.has(element.Brands)) {
+                uniqueBrands.add(element.Brands);
+                document.getElementById('showBrands').innerHTML += `
+                    <li><input type="checkbox" class="brandCheckbox" value="${element.Brands}" id="brand-${element.Brands}"><p>${element.Brands}</p></li>
+                `;
+            }
+        });
+
+        let uniqueCategory = new Set();
+        myJsonData.forEach(element => {
+            if (!uniqueCategory.has(element.category)) {
+                uniqueCategory.add(element.category);
+                document.getElementById('showCategory').innerHTML += `
+                    <li><input type="checkbox" class="categoryCheckbox" value="${element.category}" id="brand-${element.category}"><p>${element.category}</p></li>
+                `;
+            }
+        });
+
+        function filterProducts() {
+            let selectedPrice = priceRange.value;
+            let selectedBrands = [];
+            let selectedCategory = [];
+            let selectedRating = document.querySelector('input[name="starRating"]:checked')?.value;
+
+            document.querySelectorAll('.brandCheckbox').forEach(checkbox => {
+                if (checkbox.checked) selectedBrands.push(checkbox.value);
+            });
+            document.querySelectorAll('.categoryCheckbox').forEach(checkbox => {
+                if (checkbox.checked) selectedCategory.push(checkbox.value);
+            });
+
+            let filteredProducts = myJsonData.filter(product => {
+                let isPriceValid = product.price <= selectedPrice;
+                let isBrandValid = selectedBrands.length === 0 || selectedBrands.includes(product.Brands);
+                let isCategoryValid = selectedCategory.length === 0 || selectedCategory.includes(product.category);
+                let isRatingValid = !selectedRating || product.rating == selectedRating;
+                return isPriceValid && isBrandValid && isRatingValid && isCategoryValid;
+            });
+
+            displayProducts(filteredProducts);
+        }
+
+        function displayProducts(products) {
+            const showProductsContainer = document.getElementById("showProducts");
+            showProductsContainer.innerHTML = '';
+            if (products.length === 0) {
+                showProductsContainer.innerHTML = '<p>No products found matching your criteria.</p>';
+            } else {
+                products.forEach(element => {
+                    showProductsContainer.innerHTML += `
+                        <div class="shopcard-items">
+                            <a href="detail.html?id=${element.id}">
+                                <img src="${element.image}" alt="Product Image">
+                            </a>
+                            <div class="price">
+                                <h4><p>${element.title}</p> <p style="background:orange;padding:5px; border-radius:5px; color:white;" >${element.Brands}</p></h4>
+                                <p>Rs:${element.price}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+        }
+
+        filterProducts();
+
+        document.querySelectorAll('.brandCheckbox').forEach(checkbox => {
+            checkbox.addEventListener('change', filterProducts);
+        });
+        document.querySelectorAll('.categoryCheckbox').forEach(checkbox => {
+            checkbox.addEventListener('change', filterProducts);
+        });
+
+        document.querySelectorAll('input[name="starRating"]').forEach(rating => {
+            rating.addEventListener('change', filterProducts);
+        });
+    })
+    .catch(error => {
+        console.error(error);
+    });
+
+
+
+      
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+
+
+        
+
+        // toogle
+
+
+        function myNavLink() {
+            let myNav = document.getElementById("myNavLink");
+
+            myNav.classList.toggle("myActive");
+
+        }
+
+
+        function showmycarts() {
+            let mycarts = document.getElementById("procarts");
+            mycarts.classList.toggle("myActiveCarts");
+        }
+
+
+
+
+        //  footer subscribe
+
+        function subscribeUser() {
+            const email = document.getElementById("email").value;
+
+            if (email) {
+
+                localStorage.setItem('subscribeEmail', email);
+
+                alert('THANKS FOR SUBSCRIBTING')
+
+
+
+                document.getElementById('email').value = '';
+            }
+
+            else {
+                alert('please enter a valid email adress')
+            }
+        }
+
+
+    </script>
+    
+
+
+</body>
+
+</html>

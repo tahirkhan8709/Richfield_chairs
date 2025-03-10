@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Comparison</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        /* Basic styling for the table and dropdowns */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        select {
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .compair {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        #compair1, #compair2 {
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <!-- Header content -->
+    </header>
+
+    <div class="head" style="margin-top: 230px;">
+        <h2>Compare your Chair</h2>
+    </div>
+<!-- <section id="cmpr-sec"> -->
+    <div class="compair">
+        <div class="compi" id="compair1">
+            <select name="comp1" id="comp1">
+                <option value="">Select Product 1</option>
+            </select>
+            <div id="compair1details">
+              
+            </div>
+        </div>
+        <div class="compi"  id="compair2">
+            <select name="comp2" id="comp2">
+                <option value="">Select Product 2</option>
+            </select>
+            <div id="compair2details">
+              
+            </div>
+        </div>
+    </div>
+<!-- </section> -->
+    <footer class="footer">
+
+        <!-- <div class="logo">RICH FIELDS</div> -->
+        <div class="footer-container">
+            <!-- Company Info Section -->
+
+
+            <div class="footer-section">
+                <div class="footr-lgo">
+                    <h2>Rich <span class="fld">Field</span></h2>
+                </div>
+                <!-- <h3>Company</h3> -->
+                <ul>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="myaccount.html">Accounts</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Support Section -->
+            <div class="footer-section">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="contact .html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="shop.html">Brands</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="shop.html">Branded</a></li>
+                    <li><a href="shop.html">Category</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="footer-section">
+
+                <section id="footer-top">
+                    <div class="footer-section">
+                        <h3>Subscribe to Our Newsletter </h3>
+
+                        <form action="#" method="POST">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subs-btn">Subscribe</button>
+                        </form>
+
+                    </div>
+                </section>
+                <div class="footer-top">
+                    <h3>Follow Us</h3>
+                    <a href="" class="media-liks"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="media-liks"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Newsletter Subscription Section -->
+
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your RICH FIELD company. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assest/js/script.js"></script>
+    <script>
+        // Fetch product data from JSON file
+        fetch("./assest/json/product.json")
+            .then(response => response.json())
+            .then(json => {
+                const products = json.products; 
+                const comp1Select = document.getElementById('comp1');
+                const comp2Select = document.getElementById('comp2');
+                const compair1Details = document.getElementById('compair1details');
+                const compair2Details = document.getElementById('compair2details');
+
+                
+                products.forEach(product => {
+                    const option1 = document.createElement('option');
+                    option1.value = product.id;
+                    option1.textContent = product.title;
+                    comp1Select.appendChild(option1);
+
+                    const option2 = document.createElement('option');
+                    option2.value = product.id;
+                    option2.textContent = product.title;
+                    comp2Select.appendChild(option2);
+                });
+
+               
+                function displayProductDetails(product, container) {
+                    container.innerHTML = `
+                        <table>
+                            <tr><th>Title</th><td>${product.title}</td></tr>
+                            <tr><th>Price</th><td>$${product.price}</td></tr>
+                            <tr><th>Brand</th><td>${product.Brands}</td></tr>
+                            <tr><th>Rating</th><td>${product.rating}</td></tr>
+                            <tr><th>Category</th><td>${product.category}</td></tr>
+                            <tr><th>Detail</th><td>${product.detail}</td></tr>
+                            <tr><th>Size</th><td>${product.size}</td></tr>
+                            <tr><th>Colors</th><td>${product.colors.join(', ')}</td></tr>
+                            <tr><th>Description</th><td>${product.description}</td></tr>
+                        </table>
+                    `;
+                }
+
+                // Event listeners for dropdown changes
+                comp1Select.addEventListener('change', (e) => {
+                    const selectedProduct = products.find(product => product.id == e.target.value);
+                    if (selectedProduct) {
+                        displayProductDetails(selectedProduct, compair1Details);
+                    } else {
+                        compair1Details.innerHTML = 'No product found';
+                    }
+                });
+
+                comp2Select.addEventListener('change', (e) => {
+                    const selectedProduct = products.find(product => product.id == e.target.value);
+                    if (selectedProduct) {
+                        displayProductDetails(selectedProduct, compair2Details);
+                    } else {
+                        compair2Details.innerHTML = 'No product found'; 
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching product data:', error);
+            });
+    </script>
+</body>
+</html>
